@@ -1,0 +1,10 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: #d3dce6;
+} 

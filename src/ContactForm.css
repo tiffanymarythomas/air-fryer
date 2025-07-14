@@ -1,0 +1,116 @@
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #a8b9c7;
+    font-size: 1rem;
+}
+
+.Heading{
+    text-align: center;
+    font-size: 1.8rem; 
+    color: #3ddcdf; 
+    margin-bottom: 1.5rem;
+    }
+
+input {
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    font-size: 1rem;
+    border: 1.5px solid #2f414f;
+    border-radius: 10px;
+    background-color: #17232e  !important;
+    color: #d3dce6 !important;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 1.6rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #7a8a99;
+    opacity: 0.8;
+}
+
+input:focus {
+    border-color: #3ddcdf  !important;
+    box-shadow: 0 0 8px rgba(61, 220, 223, 0.5);
+    background-color: #17232e !important;
+    color: #d3dce6 !important;
+}
+
+input:-webkit-autofill {
+    background-color: #17232e !important;
+    -webkit-box-shadow: 0 0 0px 1000px #17232e inset;
+    color: #d3dce6 !important;
+    -webkit-text-fill-color: #d3dce6 !important;
+}
+
+button {
+    width: 100%;
+    padding: 0.9rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    background-color: #3ddcdf;
+    color: #0a0e13;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(61, 220, 223, 0.6);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #2ab9bb;
+    box-shadow: 0 0 25px rgba(42, 185, 187, 0.7);
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        margin: 1rem;
+        padding: 2rem 1.5rem;
+    }
+}
+
+.form-container {
+    width: 65vw;
+    max-width: 600px;
+    padding: 2.5rem 2rem;
+    background: #242424;
+    border-radius: 12px;
+    border: 2px solid #3ddcdf;
+    margin: 3rem auto; /* adds top spacing */
+    box-shadow: 0 4px 20px rgba(61, 220, 223, 0.3);
+    box-sizing: border-box;
+    }
+
+
+.pin-input-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.6rem; 
+}
+
+.pin-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 2.75rem; 
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    color: #3ddcdf;
+    transition: color 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.pin-toggle-btn:hover {
+    color: #2ab9bb;
+}
